@@ -1,0 +1,532 @@
+{
+	"pages": [
+		{
+			// "path": "pages/tbk/index",
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "水墨云商",
+				// #ifdef H5
+				"navigationBarBackgroundColor": "#FA436A",
+				// #endif
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}/* , {
+			"path": "pages/groupshop/list",
+			"style": {
+				"navigationBarTitleText": "团购"
+			}
+		} */, {
+			"path": "pages/product/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/product/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情展示",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/product/favorite",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "商品收藏"
+			}
+		}, {
+            "path" : "pages/product/list",
+            "style" : {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "商品列表",
+				"navigationBarBackgroundColor": "#FA436A",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+        }, {
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				// #ifdef H5
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/public/login",
+			"style": {
+				"navigationBarTitleText": "水墨云商-用户登录",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/user/updatePassword",
+			"style": {
+				"navigationBarTitleText": "水墨云商-修改密码",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/goods/detail",
+			"style": {
+				"navigationBarTitleText": "购物区商品详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/goods/list",
+			"style": {
+				"navigationBarTitleText": "购物区",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/public/load",
+			"style": {
+				"navigationBarTitleText": "水墨云商-微信登录",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/public/page",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		}, {
+			"path": "pages/public/page1",
+			"style": {
+				"navigationBarTitleText": "委托代卖协议"
+			}
+		}, {
+			"path": "pages/public/page2",
+			"style": {
+				"navigationBarTitleText": "用户须知"
+			}
+		}, {
+			"path": "pages/public/page3",
+			"style": {
+				"navigationBarTitleText": "用户注册协议"
+			}
+		}, {
+			"path": "pages/public/register",
+			"style": {
+				"navigationBarTitleText": "水墨云商-绑定手机号",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/user/collectMoney",
+			"style": {
+				"navigationBarTitleText": "收款设置",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/order/termOrderList",
+			"style": {
+				"navigationBarTitleText": "团队订单",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/order/list",
+			"style": {
+				"navigationBarTitleText": "我的订单"
+			}
+		}, {
+			"path": "pages/order/create",
+			"style": {
+				"navigationBarTitleText": "创建订单",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/order/detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		}, {
+			"path": "pages/order/pay",
+			"style": {
+				"navigationBarTitleText": "订单支付"
+			}
+		}, {
+			"path": "pages/order/alipay",
+			"style": {
+				"navigationBarTitleText": "订单支付",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/order/alipayto",
+			"style": {
+				"navigationBarTitleText": "订单支付",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/user/bindAliCallback",
+			"style": {
+				"navigationBarTitleText": "用户授权",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/user/bindAlipay",
+			"style": {
+				"navigationBarTitleText": "支付宝授权",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/user/bindWeixin",
+			"style": {
+				"navigationBarTitleText": "微信绑定",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/order/weituoSxfPay",
+			"style": {
+				"navigationBarTitleText": "委托订单支付",
+				// #ifdef H5
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+            "path" : "pages/order/appraise",
+            "style" : {
+				"navigationBarTitleText": "评价订单"
+			}
+        }, {
+            "path" : "pages/order/trace",
+            "style" : {
+				"navigationBarTitleText": "查看物流"
+			}
+        }, {
+			"path": "pages/pay/pay",
+			"style": {
+				"navigationBarTitleText": "支付"
+			}
+		}, {
+			"path": "pages/pay/success",
+			"style": {
+				"navigationBarTitleText": "支付成功",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+            "path" : "pages/public/imp",
+            "style" : {
+				"navigationBarTitleText": "优惠购"
+			}
+        }, {
+            "path" : "pages/category/category",
+            "style" : {
+				"navigationBarTitleText": "分类",
+				// #ifdef H5
+				"navigationStyle": "custom",
+				// #endif
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+        }, {
+            "path" : "pages/news/news",
+			"style": {
+				"navigationBarTitleText": "公告列表",
+				// #ifdef H5
+				"navigationBarBackgroundColor": "#FA436A",
+				// #endif
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+        }, {
+            "path" : "pages/news/detail",
+			"style": {
+				"navigationBarTitleText": "公告详情",
+				// #ifdef H5
+				"navigationBarBackgroundColor": "#FA436A",
+				// #endif
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+        }
+    ],
+	"subPackages":[{
+		"root": "pagesA",
+		"pages": [{
+			"path": "coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "优惠券"
+			}
+		}, {
+            "path" : "notice/notice",
+            "style" : {
+				"navigationBarTitleText": "通知"
+			}
+        }, {
+            "path" : "product/appraise",
+            "style" : {
+				"navigationBarTitleText": "全部评价"
+			}
+        }, {
+			"path": "wallet/index",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		}
+		//  , {
+		// 	"path": "wallet/recharge",
+		// 	"style": {
+		// 		"navigationBarTitleText": "充值"
+		// 	}
+		// } 
+		, {
+			"path": "wallet/bill",
+			"style": {
+				"navigationBarTitleText": "账单"
+			}
+		}, {
+			"path": "wallet/success",
+			"style": {
+				"navigationBarTitleText": "充值结果"
+			}
+		} , {
+			"path": "wallet/withdraw",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		} , {
+			"path": "user/apple",
+			"style": {
+				"navigationBarTitleText": "苹果值记录"
+			}
+		}, {
+			"path": "user/integral",
+			"style": {
+				"navigationBarTitleText": "积分记录"
+			}
+		}, {
+			"path": "user/signed",
+			"style": {
+				"navigationBarTitleText": "签到打卡"
+			}
+		}, {
+			"path": "feedback/index",
+			"style": {
+				"navigationBarTitleText": "问题反馈"
+			}
+		}, {
+			"path": "user/profile",
+			"style": {
+				"navigationBarTitleText": "修改资料"
+			}
+		}, {
+			"path" : "user/identity",
+			"style" : {
+				"navigationBarTitleText":"实名认证"
+			}
+		}, {
+			"path":"user/share",
+			"style": {
+				"navigationBarTitleText":"团队推广",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path":"user/about",
+			"style": {
+				"navigationBarTitleText":"关于",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path":"user/yuncang",
+			"style": {
+				"navigationBarTitleText":"我的云仓"
+			}
+		}, {
+			"path":"tbk/list",
+			"style": {
+				"navigationBarTitleText": "淘好物-领券更划算"
+				// ,
+				// "navigationBarBackgroundColor": "#FA436A",
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"type": "transparent"
+				// 	}
+				// }
+			}
+		}, {
+			"path":"tbk/detail",
+			"style": {
+				"navigationBarTitleText": "淘好物-商品详情展示",
+				"navigationBarBackgroundColor": "#FA436A",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		} 
+		// ,{
+		// 	"path" : "store/applyBusiness",
+		// 	"style" : {
+		// 		"navigationBarTitleText":"店铺入住"
+		// 	}
+		// }
+		,{
+			"path" : "store/home",
+			"style" : {
+				"navigationBarTitleText":"店铺主页"
+			}
+		}, {
+			"path": "address/list",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		}, {
+			"path": "address/create",
+			"style": {
+				"navigationBarTitleText": "",
+				"disableScroll" : true
+			}
+		}]
+	}],
+	"globalStyle": {
+		// #ifdef H5
+			//"navigationStyle": "custom",
+		// #endif
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "水墨云商",
+		"navigationBarBackgroundColor": "#fa436a",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC",
+		"selectedColor": "#fa436a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab-home.png",
+				"selectedIconPath": "static/tab-home-current.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/goods/list",
+				"iconPath": "static/tab-store.png",
+				"selectedIconPath": "static/tab-store-current.png",
+				"text": "购物区"
+			},
+			{
+				"pagePath": "pages/news/news",
+				"iconPath": "static/tab-news.png",
+				"selectedIconPath": "static/tab-news-current.png",
+				"text": "公告"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tab-my.png",
+				"selectedIconPath": "static/tab-my-current.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
